@@ -146,8 +146,13 @@
     border: none;
     border-radius: 7rem; 
     position: fixed;
-    top: 45rem;
+    bottom: 5rem;
     right: 2rem;
+}
+
+
+@media screen and (min-height: 380px) {
+
 }
 
 @media screen and (min-width: 380px) {
@@ -164,8 +169,8 @@
         border: none;
         border-radius: 7rem; 
         position: fixed;
-        top: 45rem;
-        right: 2rem;
+        bottom: 5rem;
+        right: 3rem;
     }
     
 }
@@ -184,8 +189,8 @@
         border: none;
         border-radius: 7rem; 
         position: fixed;
-        top: 45rem;
-        right: 2rem;
+        bottom: 5rem;
+        right: 4rem;
     }
 }
 
@@ -203,7 +208,7 @@
         border: none;
         border-radius: 7rem;
         position: fixed;
-        top: 50rem;
+        bottom: 5rem;
         right: 5rem;
     }
 }
